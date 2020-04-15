@@ -90,9 +90,11 @@ list of assertion commands is given in :ref:`Assertions`. The command
 .. cmd:: Save @ident
    :name: Save
 
-   Forces the name of the original goal to be :token:`ident`. This
-   command can only be used if the original goal
-   was opened using the :cmd:`Goal` command.
+   Forces the name of the original goal to be :token:`ident`.
+
+   .. deprecated:: 8.7
+
+      Use :cmd:`Qed`.
 
 .. cmd:: Admitted
 
